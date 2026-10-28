@@ -1,6 +1,6 @@
 // Service worker: cho ứng dụng mở được khi không có mạng.
 // Trang chính lấy bản mới từ mạng trước (để nhận cập nhật), các tệp tĩnh lấy từ bộ nhớ đệm trước.
-const CACHE = 'so-tai-chinh-v1';
+const CACHE = 'so-tai-chinh-v2';
 const CORE = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/maskable-512.png', './icons/apple-touch-icon.png', './icons/favicon.png'];
 const CDN = ['https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js'];
 
